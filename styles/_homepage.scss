@@ -86,11 +86,17 @@ a:active {
     opacity: 0.6;
 }
 
+.grid-container {
+    display: flex;
+    justify-content: center;
+
+
+}
 
 .img-container {
     max-width: 1100px;
     width: 100%;
-    grid-gap: 10px;
+    gap: 10px;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(29, 1fr);
@@ -163,16 +169,14 @@ a:active {
     grid-row: 10/16;
 }
 
-.middle-info {
-    display: grid;
-    margin-top: 144px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-top: 96px;
-    margin-bottom: 45px;
-    grid-template-columns: repeat(23, auto);
-    grid-template-rows: repeat(4, auto);
+.ul-offer-list {
+    list-style: none;
 }
+
+.offer-list {
+    margin-top: 10px;
+}
+
 
 .header-3 {
     max-width: 649px;

@@ -34,16 +34,27 @@
                 to stay sharp.</p>
         </div>
 
-        <div class="gen-form">
-            <form class="form-container" action="">
-                <label class="label" for="name">Name</label>
-                <input class="input" type="text" id="name" required="" autofocus="" placeholder="Full Name">
-                <label class="label" for="email">Email</label>
-                <input class="input" type="email" required="" placeholder="Your Email">
-                <label class="label" for="message">Message</label>
-                <textarea class="input" name="message" id="message" cols="30" rows="1" placeholder="Your message here"
-                    required=""></textarea>
-                <button class="button" type="submit">Submit</button>
+        <div class="form-background">
+            <form action="">
+                <div class="text">
+                    <label for="name" class="label">Name</label>
+                    <input required type="name" id="name" class="input-info1" placeholder="">
+                </div>
+                <div class="text">
+                    <label for="email" class="label">Email</label>
+                    <input required type="email" id="email" class="input-info2" placeholder="">
+                </div>
+                <div class="text">
+                    <label for="message" class="label">Message
+                    </label>
+                    <input required type="message" id="message" class="input-info2" placeholder="">
+                </div>
+
+                <div class="container-1">
+                    <div>
+                        <button class="send-btn">Submit</button>
+                    </div>
+                </div>
             </form>
         </div>
     </section>
@@ -51,14 +62,17 @@
         <img class="map-img" src="images/Map.png" alt="map">
     </section>
     <footer class="footer">
-        <div class="footer-logo"><img src="images/Logo.svg" alt="gen-logo"></div>
-        <div class="footer-1">
-            <ul class="footer-list">
-                <li class="projects"><a href="#">Projects</a></li>
-                <li class="contact"><a href="#">Contact</a></li>
-            </ul>
-            <div class="social-logo"><img src="images/Social.svg" alt="socal-media-logo"></div>
-        </div>
+        <nav class="footer-nav">
+            <div class="footer-logo"><img src="images/Logo.svg" alt="gen-logo"></div>
+            <div class="footer-list">
+                <ul class="footer-list-1">
+                    <li class="projects"><a href="#">Projects</a></li>
+                    <li class="contact"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="socal-media-logo"><img src="images/Social.svg" alt="socal-media-logo">
+            </div>
+        </nav>
     </footer>
 
 </body>
