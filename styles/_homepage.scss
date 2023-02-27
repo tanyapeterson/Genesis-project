@@ -1,5 +1,5 @@
 nav {
-    max-width: 1100px;
+    max-width: 1109px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -10,42 +10,44 @@ nav {
     margin-left: 125px;
 }
 
-.nav-list {
-    display: inline-flex;
+
+.list {
+    width: 162px;
+    display: flex;
     list-style: none;
-    justify-content: flex-end;
-
-
 }
 
 .projects {
-    display: inline-flex;
+    width: 67px;
+    display: flex;
     justify-content: flex-end;
     margin-right: 30px;
-
 }
 
 .contact {
-    display: inline-flex;
+    width: 67px;
+    display: flex;
     justify-content: flex-end;
-    margin-right: px;
 }
 
 
-
 a:link {
+    color: #111111;
     text-decoration: none;
 }
 
 a:visited {
+    color: #111111;
     text-decoration: none;
 }
 
 a:hover {
+    color: #4A4FF2;
     text-decoration: none;
 }
 
 a:active {
+    color: #4A4FF2;
     text-decoration: none;
 }
 
@@ -53,6 +55,26 @@ a:active {
     width: 100%;
     display: flex;
     align-items: flex-end;
+
+}
+
+.home-info-section {
+    max-height: 1100px;
+    width: 100%;
+    display: flex;
+    margin-left: 125px;
+}
+
+
+.shooting-stars {
+    width: 173px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: -0.423077px;
+    color: #4A4FF2;
 
 }
 
@@ -66,6 +88,12 @@ a:active {
     line-height: 60px;
     /* or 150% */
 }
+
+
+.span {
+    color: #4A4FF2;
+}
+
 
 .quote-item {
     align-self: center;
@@ -93,13 +121,13 @@ a:active {
 
 }
 
-.img-container {
+.home-img-container {
     max-width: 1100px;
     width: 100%;
-    gap: 10px;
+    grid-gap: 10px;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(29, 1fr);
+    grid-template-rows: repeat(32, 1fr);
     margin-left: 125px;
     margin-right: 125px;
 }
@@ -107,8 +135,10 @@ a:active {
 
 
 .one {
+
     grid-column: 1/4;
     grid-row: 1/7;
+
 }
 
 .two {
@@ -119,16 +149,24 @@ a:active {
 .three {
     grid-column: 4/7;
     grid-row: 12/20;
+
+
 }
 
 .four {
     grid-column: 7/10;
     grid-row: 1/10;
+
+
+
+
+
 }
 
 .five {
     grid-column: 1/4;
     grid-row: 7/14;
+
 }
 
 .six {
@@ -167,18 +205,61 @@ a:active {
 .twelve {
     grid-column: 7/10;
     grid-row: 10/16;
+    object-fit: fill;
 }
 
-.ul-offer-list {
+.home-offer-list {
     list-style: none;
 }
 
 .offer-list {
     margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
 }
 
 
-.header-3 {
+.home-middle-info {
+    max-width: 1103px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 125px;
+    border: 1px solid red;
+
+}
+
+
+.home-offer {
+    max-width: 357px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    /* or 136% */
+    color: #111111;
+
+}
+
+
+.home-title-2 {
     max-width: 649px;
     width: 100%;
     grid-column: 1/12;
@@ -364,4 +445,30 @@ a:active {
     background: #D8D8D8;
     height: 3px;
     border: none;
+}
+
+.footer-nav {
+    max-width: 1109px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footer-list {
+    max-width: 353px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list-1 {
+    width: 163px;
+    display: flex;
+    justify-content: space-between;
+
+
 }
