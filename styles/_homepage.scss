@@ -104,6 +104,7 @@ a:active {
 .quote {
     max-width: 207px;
     width: 100%;
+    font-family: 'Mulish';
     font-style: italic;
     font-weight: 400;
     font-size: 18px;
@@ -115,27 +116,24 @@ a:active {
 }
 
 .grid-container {
-    display: flex;
-    justify-content: center;
+    max-width: 1110px;
+    width: 100%;
+    height: 1960px;
+    margin-left: 125px;
 
 
 }
 
 .home-img-container {
-    max-width: 1100px;
-    width: 100%;
-    grid-gap: 10px;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
-    margin-left: 125px;
-    margin-right: 125px;
+    grid-gap: 10px;
 }
 
 
 
 .one {
-
     grid-column: 1/4;
     grid-row: 1/7;
 
@@ -156,11 +154,6 @@ a:active {
 .four {
     grid-column: 7/10;
     grid-row: 1/10;
-
-
-
-
-
 }
 
 .five {
@@ -232,10 +225,9 @@ a:active {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 144px;
     margin-bottom: 50px;
     margin-left: 125px;
-    border: 1px solid red;
-
 }
 
 
